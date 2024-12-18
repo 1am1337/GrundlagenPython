@@ -1,3 +1,5 @@
+import math
+
 Preise = {
 	"Apfel": 0.60,
 	"Banane": 0.40,
@@ -31,7 +33,7 @@ print(get_total_price(["Apfel", "Banane", "TestError"]))
 
 
 def get_lowest_price(Dict_Input):
-	lower_price = float(100)								#sehr unprofessionell
+	lower_price = math.inf								#sehr unprofessionell
 	for value in Dict_Input.values():
 		if float(value) < lower_price:
 			lower_price = value
