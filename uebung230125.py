@@ -5,3 +5,5 @@ def myFunc(x: int) -> int:
    #print(myVal)
    return x*x
 print(myFunc(42.5), myVal)
+
+def myRecursive():
