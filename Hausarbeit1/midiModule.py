@@ -2,7 +2,6 @@ import math
 import random
 noteNames = ["C", "C#/Db", "D", "D#/Eb", "E", "F", "F#/Gb", "G", "G#/Ab", "A", "A#/Bb", "B"]
 midiRatio = [0.000, 0.083, 0.167, 0.250, 0.333, 0.417, 0.500, 0.583, 0.667, 0.750, 0.833, 0.917]
-zeroValues = []
 debugMelody = [64, 64, 65, 64, 67, 60, 65, 64, 64, 65, 62]
 
 def isNum(testInput):
@@ -23,7 +22,6 @@ def midiToFreq(midiInput):
 			return freq
 	else:
 		return "invalid Input; try a number"
-
 
 def freqToMidi(freqInput):
 	freqList = []
@@ -236,6 +234,8 @@ def nameToMidi(nameInput):
 	else:
 		return "invalid Input"
 
+
+
 if __name__ == "__main__":
 	print(midiToFreq(60))
 	print(freqToMidi(1108.731))
@@ -256,5 +256,5 @@ if __name__ == "__main__":
 	print(countMidiEvents(debugMelody))
 	print(getSubsequentInterval(60, 69))
 	print(countIntervals(debugMelody))
-	print(nameToMidi("A4"))
+	print(nameToMidi("Bb4"))
 	pass
