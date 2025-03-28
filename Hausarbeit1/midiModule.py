@@ -2,7 +2,7 @@ import math
 import random
 noteNames = ["C", "C#/Db", "D", "D#/Eb", "E", "F", "F#/Gb", "G", "G#/Ab", "A", "A#/Bb", "B"]
 midiRatio = [0.000, 0.083, 0.167, 0.250, 0.333, 0.417, 0.500, 0.583, 0.667, 0.750, 0.833, 0.917]
-debugMelody = [64, 64, 65, 64, 67, 60, 65, 64, 64, 65, 62]
+debugMelody = [71, 71, 69, 67, 72, 72, 71, 69, 74, 71, 67, 74, 74, 76, 72]
 
 def isNum(testInput):
 	try:
