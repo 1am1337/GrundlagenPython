@@ -21,7 +21,7 @@ def midiToFreq(midiInput):
 		else:
 			return freq
 	else:
-		return "invalid Input; try a number"
+			return "invalid Input; try a number"
 
 def freqToMidi(freqInput):
 	freqList = []
@@ -233,7 +233,6 @@ def nameToMidi(nameInput):
 			return "invalid Input"
 	else:
 		return "invalid Input"
-
 
 
 if __name__ == "__main__":
