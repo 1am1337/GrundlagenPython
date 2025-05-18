@@ -14,12 +14,12 @@ if not os.path.exists(FILE_NAME):
 print(os.path.exists(FILE_NAME))
 
 
-# fileContents = ""
+fileContents = ""
 
-# try:
-# 	with open(FILE_NAME, "r") as file:
-# 		fileContents = file.read()
-# except FileNotFoundError:
-# 	print("FileNotFoundError")
-# 	exit(1)
-# print(fileContents)
+try:
+	with open(FILE_NAME, "r") as file:
+		fileContents = file.read()
+except FileNotFoundError:
+	print("FileNotFoundError")
+	exit(1)
+print(fileContents)
