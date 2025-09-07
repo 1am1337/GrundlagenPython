@@ -6,7 +6,6 @@ import time
 
 p = pyaudio.PyAudio()
 
-
 WindowSize = [480, 600]
 sr = 48000
 freq1 = [1209, 1336, 1477, 1633]
