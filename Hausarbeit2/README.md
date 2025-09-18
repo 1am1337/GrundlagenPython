@@ -1,5 +1,5 @@
 # PhoneGUI.py
-Real-time GUI implementation of DTMF signaling, with a working settings menu
+Real-time GUI implementation of DTMF signaling, with a settings menu
 
 Required packages:
 
